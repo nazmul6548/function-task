@@ -54,6 +54,9 @@ const result = con(9);
 
 function xyz(params) {
     const res = params.length;
+    if (res % 2 === 0) {
+        console.log("nazmul even numere",res);
+    }
     console.log(res,params);
     
 }
