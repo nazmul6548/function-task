@@ -9,11 +9,29 @@
 // myFirstFunc(any1,any2)
 
 
-function myFunc2 (num1) {
-    const res = num1 * 11;
-    return res;
+// function myFunc2 (num1) {
+//     const res = num1 * 11;
+//     return res;
+//     // console.log();
+    
+// }
+// myFunc2(2)
+// const store = myFunc2(3);
+// console.log(store);
+
+function names (num3 , num4) {
+    const ress = num3 + num4;
+    return ress;
     
 }
-myFunc2(2)
-const store = myFunc2(3);
-console.log(store);
+const add1 = names(2 , 3);
+console.log(add1);
+
+function isName(value1 , value2) {
+    return value1 - value2;
+    
+}
+let a = 19;
+let b =15;
+const addNum = isName(a,b);
+console.log(addNum);
