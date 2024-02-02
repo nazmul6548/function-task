@@ -8,6 +8,21 @@ function name(params) {
 }
 const myNum = [1, 2, 3, 4, 55, 6, 7, 8];
 const i = name(myNum);
-console.log(i);
+// console.log(i);
 // const
 // name(4)
+
+
+
+function myFunc(para) {
+    let sum = 0;
+    for (const iterator of para) {
+        sum += iterator;
+        // console.log(iterator);
+    }
+    return sum;
+    
+}
+const myArray =[5,6,7,8];
+const result = myFunc(myArray);
+console.log(result);
