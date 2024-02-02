@@ -12,17 +12,17 @@ const i = name(myNum);
 // const
 // name(4)
 
-
-
 function myFunc(para) {
-    let sum = 0;
-    for (const iterator of para) {
-        sum += iterator;
-        // console.log(iterator);
-    }
-    return sum;
-    
+  let sum = 0;
+  for (const iterator of para) {
+    sum += iterator;
+    // console.log(iterator);
+  }
+  return sum;
 }
-const myArray =[5,6,7,8];
+const myArray = [5, 6, 7, 8];
+const yourArray = [66,4]
 const result = myFunc(myArray);
 console.log(result);
+const result1 =myFunc(yourArray)
+console.log(result1);
