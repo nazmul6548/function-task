@@ -61,3 +61,16 @@ function xyz(params) {
     
 }
 xyz("nazmul")
+
+
+
+function name(params ,boolean) {
+    if (boolean === true) {
+        const res = params * 3;
+        return res;
+        
+    }
+    
+}
+const n = name(3, true);
+console.log(n);
