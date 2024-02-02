@@ -50,4 +50,11 @@ function con (p1) {
 }
 con(3)
 const result = con(9);
-console.log(result);
+// console.log(result);
+
+function xyz(params) {
+    const res = params.length;
+    console.log(res,params);
+    
+}
+xyz("nazmul")
