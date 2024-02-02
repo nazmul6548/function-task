@@ -20,12 +20,12 @@
 // console.log(store);
 
 function names (num3 , num4) {
-    const ress = num3 + num4;
-    return ress;
+    const result = num3 + num4;
+    return result;
     
 }
 const add1 = names(2 , 3);
-console.log(add1);
+// console.log(add1);
 
 function isName(value1 , value2) {
     return value1 - value2;
@@ -34,4 +34,20 @@ function isName(value1 , value2) {
 let a = 19;
 let b =15;
 const addNum = isName(a,b);
-console.log(addNum);
+// console.log(addNum);
+
+
+
+
+function con (p1) {
+    if (p1 % 2 === 0) {
+        return "even numbere"
+        
+    }else {
+        return "odd numbere"
+    }
+    
+}
+con(3)
+const result = con(9);
+console.log(result);
