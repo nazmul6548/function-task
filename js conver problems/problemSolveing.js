@@ -1,9 +1,9 @@
-function myFunc(params) {
-    const self = params / 12;
+function myFunc(inches) {
+    const self = inches / 12;
     // console.log(self);
     const res = parseInt(self)
     // console.log(res);
-    const res2 = params % 12;
+    const res2 = inches % 12;
     // console.log(res2);
     const res3 = res + " foot " + res2 + " inches";
     // console.log(res3);
