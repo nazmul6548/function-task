@@ -4,22 +4,42 @@
 // ans:
 
 function odd_even(myCondition) {
-    let even = 0;
-    let odd = 0;
+    let even = [];
+    let odd = [];
     for (let i = 0; i < myCondition.length; i++) {
         if (myCondition[i] % 2 === 0) {
-        even = myCondition[i];
-        console.log(even,"even");
+        // even = myCondition[i];
+        even.push(myCondition[i]);
+        // console.log(even,"even");
         
         
     }else{
-        
-        console.log(odd,"odd");
+        odd.push(myCondition[i]);
+        // odd = myCondition[i];
+        // console.log(odd,"odd");
     }
     
+    
    }
-   return even,odd
+   return {even:even,odd:odd}
+   
 }
 const num = [1,2,3,4,55,6,7,8,9,22];
-const ttt = odd_even(num);
-console.log(ttt);
+const finalResult = odd_even(num);
+console.log(finalResult.even,"even");
+console.log(finalResult.odd,"odd");
+
+
+// function name(params) {
+//     if (params % 2 === 0) {
+//         return "even"
+//     }else{
+//         return "odd"
+//     }
+// }
+// let n1 = 22;
+// let result1 = name(n1);
+// // console.log(result1);
+// let n2 = 23;
+// let result2 = name(n2);
+// // console.log(result2);
