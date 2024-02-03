@@ -27,7 +27,7 @@
 // console.log(myRes);
 
 
-
+// both
 function myFunc(params) {
   sums = 0;
   if (params % 2 !== 0) {
