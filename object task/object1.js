@@ -34,6 +34,6 @@ const myObject ={
 
 function myFunction (myParams) {
     // console.log(myParams);
-    console.log(`my name is ${myParams.name} and my age ${myParams.age} i live in ${myParams.adress}.`);
+    console.log(`my name is ${myParams.name} and my age ${myParams.age} i live in ${myParams.adress}. `);
 }
 myFunction(myObject)
