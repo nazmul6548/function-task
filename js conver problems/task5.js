@@ -4,15 +4,16 @@ const myNum = 10;
 const result = (Math.random() * myNum) + myNum;
 // console.log(result.rou);
 const tu = Math.round(result);
-console.log(tu);
+// console.log(tu);
 
 
 
 
 // Task-5:
 // Generate a random number between 10 to 20.
-const min = 10;
-const max = 20;
-const result1 = Math.random() * (max - min) + min;
-const randomNum = Math.round(result1);
-console.log(randomNum);
+const myNum1 = 10;
+const myNum2 =20;
+
+const results1 = (Math.random( ) * (myNum2 - myNum1) + myNum1);
+const results2 = Math.round(results1)
+console.log(results2);
