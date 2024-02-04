@@ -22,3 +22,18 @@ function name(params) {
     console.log(`my name is ${params}`);
 }
 name("jewel")
+
+
+
+
+const myObject ={
+    name:"nazmul islam jewel",
+    age:26,
+    adress:"chittagong"
+}
+
+function myFunction (myParams) {
+    // console.log(myParams);
+    console.log(`my name is ${myParams.name} and my age ${myParams.age} i live in ${myParams.adress}.`);
+}
+myFunction(myObject)
