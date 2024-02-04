@@ -94,11 +94,16 @@
 // const phoneNumber = "+8801759336548";
 // const result = name(phoneNumber);
 // console.log(result);
-
+// 
+// 
+// 
+// 
+// 
+// 
 function phoneNumber(number) {
   let num1 = "01859336548";
   let num2 = "+8801859336548";
-  let num3 = "+88";
+  
 
   if (
     number.length === num1.length ||
@@ -118,13 +123,13 @@ function phoneNumber(number) {
   } else if (
     number[0] === "0" &&
     number[1] === "1" &&
-    (number[2] === "9" && number[2] === "7" && number[2] === "7")
+    (number[2] === "9" || number[2] === "8" || number[2] === "7")
   ) {
     return true;
   } else {
     return false;
   }
 }
-const number = "01959336548";
+const number = "01859336548";
 const result = phoneNumber(number);
 console.log(result);
