@@ -34,3 +34,4 @@ function calculation(a, b, operation) {
 }
 const result = calculation(5, 15, "division");
 console.log(result);
+lo
