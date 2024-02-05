@@ -16,7 +16,7 @@ console.log(result);
 
 
 // smaller number
-const myNum1 = [66,67,68,69,70,71,72,73,74,75];
+const myNum1 = [99,66,67,68,69,70,71,72,73,74,75];
 function myFunc1(params1) {
   // console.log(params);
   let myStore =params1[0];
