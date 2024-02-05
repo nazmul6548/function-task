@@ -32,15 +32,18 @@ function findAveragePhonePrice(params) {
 
     const mainObject = params[key];
 
-    // console.log(mainObject);
+    // console.log(mainObject.length);
 
     const abc = mainObject.price;
 
     // console.log(abc);
 
     totalPrice += abc;
-  }
-  return totalPrice;
+    
+}
+// return totalPrice;
+let average= totalPrice / params.length;
+return parseInt(average);
 }
 
 const getAveragePhone = findAveragePhonePrice(phones);
