@@ -1,3 +1,4 @@
+// batch 8 assignment problem1
 function canPay(firstInput, secondInput) {
   if (firstInput.length === 0) {
     return "please input  array number";
@@ -13,9 +14,6 @@ function canPay(firstInput, secondInput) {
     return "false";
   }
 }
-
-//    return sum;
-
 const myTk = [];
 const cheepsPrice = 10;
 const tk = canPay(myTk, cheepsPrice);

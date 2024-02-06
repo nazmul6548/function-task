@@ -1,4 +1,5 @@
-function findAdress(params) {
+
+// batch 8 assignment problem1function findAdress(params) {
   const value1 = params.street || "__";
   const value2 = params.house || "__";
   const value3 = params.society || "__";
