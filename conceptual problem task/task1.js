@@ -1,11 +1,11 @@
 // have any object
-const myObject = {
-  name: "nazmul",
-  age: 43,
-};
+// const myObject = {
+//   name: "nazmul",
+//   age: 43,
+// };
+const myObject=[]
 
 function myFunc(params) {
-  // console.log(params);
   if (typeof params !== "object") {
     return "object daw";
   } else if (!params.name || !params.age) {
