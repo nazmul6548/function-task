@@ -18,7 +18,8 @@ console.log(result);
 // option-2
 function name(par1 , par2 , par3 , par4) {
     let res = par1 * par2 * par3 * par4;
-    console.log(res);
+    // console.log(res);
     
 }
 name(1,2,3,4);
+
