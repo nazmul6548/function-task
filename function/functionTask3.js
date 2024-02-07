@@ -25,14 +25,21 @@ console.log(result);
 
 
 // Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
-
+// modify
 function myFunction(params) {
   let sums = 0;
-  for (let i = 0; i < params.length; i++) {
+  if (Array.isArray(params) === false) {
+    return "provide array"
+   }
+   for (let i = 0; i < params.length; i++) {
     sums = sums + params[i];
-    
-    
-  }
+    if (params[i] < 0) {
+      return "provide positive number"
+     }
+     
+}
+
+  
   let avarage = sums / params.length;
   // return  parseInt(avarage);
   // let ava = Math.round(avarage);
@@ -40,5 +47,5 @@ function myFunction(params) {
   return avar;
   
 }
-const myArrayNumber = [3,3,4,6,7,8,9]
+const myArrayNumber =66;
 console.log(myFunction(myArrayNumber));
